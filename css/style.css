@@ -163,3 +163,105 @@ body {
     border-radius: 50%;
     translate: -50% 50%;
 }
+.blog-content {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.blog-content-article {
+    padding: 15px;
+}
+.blog-content-article-img {
+    max-width: 100%;
+    height: auto;
+}
+.blog-section-title {
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section-title::after, .blog-section-title::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.blog-article-btn {
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-article-btn:hover {
+    color: darkred;
+    transition: 0.2s;
+
+}
+.service {
+    background-color: #282828;
+    color: white;
+}
+.service-article-title {
+    font-size: 19px;
+   text-transform: uppercase;
+}
+.service-content {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.service-content-article {
+    padding: 15px;
+}
+.service-content-article-img {
+    max-width: 100%;
+    height: auto;
+}
+.service-section-title {
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-section-title::after, .service-section-title::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.service-article-btn {
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-article-btn:hover {
+    color: darkred;
+    transition: 0.2s;
+
+}
+.service-article-title {
+    font-size: 19px;
+    text-transform: uppercase;
+}
